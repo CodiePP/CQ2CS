@@ -1,0 +1,56 @@
+
+#toc::before{
+  content: "TOC ";
+}
+
+p:lang(en)::before {
+  content: "en ";
+  vertical-align: sub;
+  color: #888;
+  text-shadow: 1px 1px 2px #666;
+}
+
+p:lang(de)::before {
+  content: "de ";
+  vertical-align: sub;
+  color: #888;
+  text-shadow: 1px 1px 2px #666;
+}
+
+p:lang(fr)::before {
+  content: "fr ";
+  vertical-align: sub;
+  color: #888;
+  text-shadow: 1px 1px 2px #666;
+}
+
+a:lang(en)::before {
+  content: "en:";
+  vertical-align: sub;
+  color: #888;
+}
+a:lang(de)::before {
+  content: "de:";
+  vertical-align: sub;
+  color: #888;
+}
+a:lang(fr)::before {
+  content: "fr:";
+  vertical-align: sub;
+  color: #888;
+}
+/* p:lang(en) {
+  background: #fee;
+}
+
+p:lang(de) {
+  background: #efe;
+}
+
+p:lang(fr) {
+  background: #eef;
+} */
+
+div .control {
+  padding: 8px 4px 4px 8px;
+}
